@@ -1,0 +1,118 @@
+
+header{
+    position: absolute;
+    width: 1440px;
+    height: 233px;
+    left: 0px;
+    top: 0px;
+    background: #E6E6E6;
+
+}
+
+main{
+    position: absolute;
+    width: 1041px;
+    height: 459px;
+    left: 225px;
+    top: 352px;
+}
+
+/* para titulo principal */
+#visorTexto {
+    text-align: center;
+    color: #005677;
+    background-color:#C4C4C4;
+
+    position: absolute;
+    width: 1440px;
+    height: 60px
+    left: 0px;
+    top: 188px; 
+  }
+
+/* para titulos personales, academico y laboral */
+  #visorTexto2, #visorTexto3, #visorTexto4  {
+    text-align: left;
+    color: #005677;
+    background-color:#C4C4C4;
+
+    position: absolute;
+    width: 1041px;
+    height: 60px
+    left: 0px;
+    top: 0px; 
+  }
+
+/* para datos académicos */
+#visorTexto3 {
+    top: 100px; 
+  }
+  
+
+  /* para datos laborales */
+#visorTexto4 {
+    top: 250px; 
+  }
+
+  
+  img {
+    position: absolute;
+    width: 100px;
+    height: 147px;
+    left: 635px;
+    top: 21px;
+  }
+
+li{
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 84.69%;
+    
+
+}
+
+dl{
+    font-family: Times New Roman;
+    font-style: normal;
+    
+    font-size: 15px;
+    line-height: 84.69%;
+    
+}
+
+
+  footer{
+    position: absolute;
+    width: 1440px;
+    height: 37px;
+    left: 0px;
+    top: 987px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+
+    background: #005677;
+    line-height: 10.69%;
+  }
+
+  #visorImagenFooterInstagram, #visorImagenFooterLinkenid {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 820px;
+    top: 10px;
+  }
+
+  #visorImagenFooterInstagram {
+    
+    left: 820px;
+    
+  }
+  #visorImagenFooterLinkenid {
+    
+    left: 870px;
+    
+  }
