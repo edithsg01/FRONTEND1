@@ -1,0 +1,165 @@
+
+*{
+    margin :0;
+    padding: 0;
+        }
+
+body{
+    
+    background:white;
+ 	font-family: Helvetica, Arial, sans-serif;
+	
+	font-size:  17px;
+	line-height: 97.6%;
+    padding-top: 120px;
+    height: 100vh;
+    
+}
+
+    /* */
+    section.contenido {
+        max-width: 70%;
+        margin: auto;
+    }
+    
+     
+    main section{
+        margin-top: 20px;
+        
+    }
+
+    header{
+        background-image: url(../img/color-2174049_1280.png);
+        background-size: cover;
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: fixed;
+        height: 100px;
+             }
+    
+    
+             /* Para el color del texto en el menu */
+             header a {
+                color: black;
+
+             }
+
+   
+
+    img {
+        max-width: 25%;
+        height:auto;
+        display: block;   /* centrar la imagen  */
+        margin: auto;     /* centrar la imagen  */
+    }  
+
+
+    
+
+    h1,h2 {
+        /* acá agrupamos las propiedades que tienen en común */
+        background-color: #2e2d2d;
+        letter-spacing: 0.3em; /*espacio entre los caracteres de un bloque de texto. em: permite que el espaciado permanezca en relación con el tamaño de la fuente*/
+        text-transform: uppercase;  /* poner en mayúscula*/
+        color:white;
+        line-height: 190%;  /* espaciado entre lineas*/
+    }
+
+
+    h1 {
+        font-size: 28px; 
+        line-height: 1.3em;
+        margin: 15px;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+   
+
+
+   
+
+
+    /* Para Menu Navegación  */
+
+nav {
+	float: left;    /* posicionar menú a la izquierda  */
+    
+    }
+
+    /* margenes  */
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style:none;  /* estilo de la lista  */
+        padding-left: 100px; /* espacio a la derecha  */
+
+	  
+	}
+	
+	nav ul li {
+			display: inline-block;  /* para que los elementos de la lista respetan (ancho, alto y margen vertical), y siguen en la misma línea*/
+			line-height: 60px;
+		}
+
+
+
+	nav ul li a {      
+				display: block;
+				padding: 0 15px; /* crea espacio extra entre los enlaces */
+				text-decoration: none;
+			}
+
+			
+/* para seleccionar y aplicar estilo al pasar el mouse sobre el enlace*/
+	nav ul li a:hover {    
+					background:lightgrey;
+				}
+
+
+i.far, i.fas {
+    color:deepskyblue;
+    font-size: 1rem;
+    margin-left: 7px;
+   
+}
+
+/* imagenes redes sociales del footer */
+
+
+  footer{
+    position: absolute;
+    background-color:slategrey;
+    color:white;
+    font-size: 17px; 
+    text-align: center;
+    margin-top: 12px;
+    height: 30px;
+    width: 100%;
+    line-height:2rem;
+
+}
+
+
+  #imgredelinkenid, #imgredeinstagram {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 740px;
+    top: 5px; 
+    
+}
+
+
+  #imgredeinstagram {
+    
+    left: 770px;
+    
+  }
+
