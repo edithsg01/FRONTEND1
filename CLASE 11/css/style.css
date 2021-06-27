@@ -1,0 +1,176 @@
+*{
+box-sizing:border-box;
+margin: 0px;
+}
+
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:100hv;
+}
+
+header{
+    height: 100px;
+    top: 0px;
+    width: 100%;
+    background: #222222;
+    position: sticky;
+    z-index: 50;
+    display:flex;
+  
+
+}
+
+#logo-pizza{
+    position: absolute;
+    left: 20px;
+    top:10px;
+    bottom:10px;
+}
+
+#titulo-cabecera{
+    position: absolute;
+    left: 122px;
+    top:36px;
+
+}
+
+
+nav {
+    width: 100%;
+}
+
+ .menu-bar{
+    list-style: none;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:flex-end;
+    align-items:stretch;
+    align-content:center; 
+}
+
+nav ul li{
+    height:auto; 
+    padding: 20px; 
+    text-align:center;
+    
+  
+}
+
+nav a{
+    color: #F3F3F3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+main{
+     display: flex;
+     align-items: stretch;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     gap: 10px;
+     background:silver;
+ 
+}
+
+section{
+    height: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 35px 19px;
+    
+}
+
+section.delivery{
+    background-image: url('../img/delivery.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+section.grupo1{
+    background-color: white;
+    
+}
+section.grupo1 ol{
+    margin-top:20px;
+    font-weight: bold;
+}
+
+section.grupo1 > div{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+    align-items: left;
+   
+
+}
+
+section.grupo1 h2{
+    text-align: center;
+}
+
+
+h2{
+    font-size: 24px;
+    left: 19px;
+    bottom:302px;  
+    top: 20px;  
+    line-height: 28px;
+    color: red;
+  }
+
+  span{
+    color:white;
+  }
+
+
+
+
+  footer{
+      
+    background:#222222;
+    height: 150px;
+    bottom: 8px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+  
+  }
+
+#img-footer{
+    position: absolute; 
+    right:170px;
+    top: 560px;
+    bottom:35px;
+}
+
+nav ul li{
+    height: auto;
+    padding: 7px;
+    text-align:left;
+    /* left:20px; */
+    
+}
+
+h4{
+    color: #39B24A;
+}
+
+#rojo{
+    color: red;
+}
+
+
+
+#titulo-footer{
+    position:absolute;
+    top:590px;
+    right: 68px;
+}
